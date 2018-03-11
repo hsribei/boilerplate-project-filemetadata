@@ -9,6 +9,7 @@
     "develop": "nodemon --inspect server.js"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^5.0.0-alpha.2",
     "cors": "^2.8.4"
   },
