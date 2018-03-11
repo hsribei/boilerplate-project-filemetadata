@@ -1,11 +1,13 @@
 "use strict";
 
-var express = require("express");
-var cors = require("cors");
+const express = require("express");
+const cors = require("cors");
+const multer = require("multer");
 
 // require and use "multer"...
 
-var app = express();
+const app = express();
+const upload = multer();
 
 app.use(cors());
 app.use("/public", express.static(process.cwd() + "/public"));
